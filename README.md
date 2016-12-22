@@ -1,24 +1,8 @@
-# README
+# Get to 24 API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails 5 API-only app to provide the backend API for www.getto24.com.
 
-Things you may want to cover:
+It utilizes the Math 24 gem for problem generation, solution, and verification.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The API is built by Codeship CI and deployed to Heroku
+(https://getto24-api.herokuapp.com) on a successful push to the `master` branch.
