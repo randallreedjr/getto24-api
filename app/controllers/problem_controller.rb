@@ -1,8 +1,6 @@
-require 'math24'
-
 class ProblemController < ApplicationController
   def generate
-    @problem = Math24.new.generate_problem
+    @problem = Math24.generate_problem
     render json: { problem: @problem }
   end
 
