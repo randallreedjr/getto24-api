@@ -1,4 +1,5 @@
 # Get to 24 API
+[![CircleCI](https://circleci.com/gh/randallreedjr/getto24-api.svg?style=svg)](https://circleci.com/gh/randallreedjr/getto24-api)
 
 This is a Rails 5 API-only app to provide the backend API for www.getto24.com.
 
